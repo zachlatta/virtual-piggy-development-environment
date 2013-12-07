@@ -107,7 +107,15 @@ package { 'build-essential':
   ensure => installed
 }
 
-package { 'git-core':
+package { 'git':
+  ensure => installed
+}
+
+package { 'zsh':
+  ensure => installed
+}
+
+package { 'tmux':
   ensure => installed
 }
 
